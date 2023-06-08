@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+
+</head>
+<body>
+
+  <div class="mobile-logo">
+    <img src="images/logo.svg" alt="" class="logo-mobile">
+  </div>
+  <main class="container">
+    <div class="col-1">
+
+      <a href="#"><img src="images/logo.svg" alt="" class="logo"></a>
+      <h1>We're <span>coming soon</span> </h1>
+      <p>  Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+
+      <div class="input-box">
+        <input class="input" type="text" placeholder="Email Address">
+        <img src="images/icon-error.svg" alt="" class="error-icon">
+        <button class="btn"><img src="images/icon-arrow.svg" alt=""></button>
+        <div class="error-message"></div>
+      </div>
+    </div>
+    
+    <div class="col-2">
+      <picture>
+        <source media="(max-width: 600px)" srcset="images/hero-mobile.jpg" alt="hero">
+        <img src="images/hero-desktop.jpg" alt=" hero">
+      </picture>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
